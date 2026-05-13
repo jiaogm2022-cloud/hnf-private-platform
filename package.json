@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "tsc -b && vite build",
+    "build:github": "GITHUB_PAGES=1 tsc -b && GITHUB_PAGES=1 vite build",
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {

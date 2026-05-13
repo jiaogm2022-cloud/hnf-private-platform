@@ -2,6 +2,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: process.env.VERCEL ? "/" : "/hnf-private-platform/",
+  base: process.env.GITHUB_PAGES ? "/hnf-private-platform/" : "/",
   plugins: [react()]
 });
